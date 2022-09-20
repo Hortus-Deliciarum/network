@@ -43,15 +43,20 @@
     "widgets": [
       {
         "type": "panel",
-        "top": 30,
-        "left": 30,
+        "top": 40,
+        "left": 40,
         "lock": false,
         "id": "panel_1",
         "visible": true,
         "interaction": true,
         "comments": "rotor_1",
+<<<<<<< HEAD
         "width": 220,
         "height": 340,
+=======
+        "width": 140,
+        "height": 240,
+>>>>>>> 1293c69d8e525a6cf0ccff7811c798f77e31dc9b
         "expand": "false",
         "colorText": "auto",
         "colorWidget": "auto",
@@ -100,13 +105,13 @@
             "height": "auto",
             "expand": "false",
             "colorText": "auto",
-            "colorWidget": "auto",
+            "colorWidget": "#444444",
             "colorStroke": "auto",
-            "colorFill": "auto",
+            "colorFill": "#ffffff",
             "alphaStroke": "auto",
             "alphaFillOff": "auto",
-            "alphaFillOn": "auto",
-            "lineWidth": "auto",
+            "alphaFillOn": 1,
+            "lineWidth": 3,
             "padding": "auto",
             "html": "",
             "css": "",
@@ -119,7 +124,7 @@
             "mode": "toggle",
             "doubleTap": false,
             "value": "",
-            "default": "",
+            "default": 0,
             "linkId": "",
             "address": "auto",
             "preArgs": "",
@@ -139,8 +144,13 @@
             "id": "text_1",
             "visible": true,
             "comments": "",
+<<<<<<< HEAD
             "width": 200,
             "height": "auto",
+=======
+            "width": 120,
+            "height": 40,
+>>>>>>> 1293c69d8e525a6cf0ccff7811c798f77e31dc9b
             "expand": "false",
             "colorText": "auto",
             "colorWidget": "auto",
@@ -168,20 +178,25 @@
           },
           {
             "type": "button",
+<<<<<<< HEAD
             "top": 280,
             "left": 20,
+=======
+            "top": 200,
+            "left": 0,
+>>>>>>> 1293c69d8e525a6cf0ccff7811c798f77e31dc9b
             "lock": false,
             "id": "button_3",
             "visible": true,
             "interaction": false,
             "comments": "",
-            "width": 180,
-            "height": 30,
+            "width": 120,
+            "height": 20,
             "expand": "false",
             "colorText": "auto",
             "colorWidget": "auto",
             "colorStroke": "auto",
-            "colorFill": "#00cc00",
+            "colorFill": "auto",
             "alphaStroke": "auto",
             "alphaFillOff": "auto",
             "alphaFillOn": "auto",
@@ -211,6 +226,7 @@
             "onValue": ""
           },
           {
+<<<<<<< HEAD
             "type": "button",
             "top": 60,
             "left": 100,
@@ -317,6 +333,18 @@
             "comments": "",
             "width": "auto",
             "height": "auto",
+=======
+            "type": "dropdown",
+            "top": 140,
+            "left": 0,
+            "lock": false,
+            "id": "dropdown_1",
+            "visible": true,
+            "interaction": true,
+            "comments": "",
+            "width": 120,
+            "height": 40,
+>>>>>>> 1293c69d8e525a6cf0ccff7811c798f77e31dc9b
             "expand": "false",
             "colorText": "auto",
             "colorWidget": "auto",
@@ -329,6 +357,7 @@
             "padding": "auto",
             "html": "",
             "css": "",
+<<<<<<< HEAD
             "design": "default",
             "pips": false,
             "dashed": false,
@@ -344,6 +373,18 @@
             "sensitivity": 1,
             "steps": "",
             "origin": "auto",
+=======
+            "label": "auto",
+            "icon": "true",
+            "align": "center",
+            "values": {
+              "continue cw": 0,
+              "continue ccw": 1,
+              "fragment cw": 2,
+              "fragment ccw": 3,
+              "fragment cw/ccw": 4
+            },
+>>>>>>> 1293c69d8e525a6cf0ccff7811c798f77e31dc9b
             "value": "",
             "default": "",
             "linkId": "",
@@ -355,8 +396,12 @@
             "ignoreDefaults": false,
             "bypass": false,
             "onCreate": "",
+<<<<<<< HEAD
             "onValue": "",
             "onTouch": ""
+=======
+            "onValue": ""
+>>>>>>> 1293c69d8e525a6cf0ccff7811c798f77e31dc9b
           }
         ],
         "tabs": []
