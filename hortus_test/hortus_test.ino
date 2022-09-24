@@ -5,7 +5,7 @@
 // WiFi stuff
 const char* ssid = "HORTUS";
 const char* pwd = "francesco";
-const IPAddress ip(192, 168, 0, 100);
+const IPAddress ip(192, 168, 0, 30);
 const IPAddress gateway(192, 168, 0, 1);
 const IPAddress subnet(255, 255, 255, 0);
 
@@ -29,14 +29,14 @@ void setup() {
     Serial.print("WiFi connected, IP = ");
     Serial.println(WiFi.localIP());
 
-    //OscWiFi.publish(host, send_port, "/publish", 1)
-    //    ->setIntervalMsec(250.f);
+    OscWiFi.publish(host, send_port, "/publish", 1)
+        ->setIntervalMsec(1000.f);
 }
 
 void loop() {
-  //OscWiFi.update();
-  int token = random(0,100);
+  OscWiFi.update();
+  //int token = random(0,100);
   
-  OscWiFi.send(host, send_port, "/reply", token);
-  delay(2000);
+  //OscWiFi.send(host, send_port, "/reply", token);
+  //delay(2000);
 }
