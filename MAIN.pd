@@ -1,1 +1,2 @@
-#N canvas 4 62 450 300 36;
+#N canvas 119 101 1576 901 36;
+#X obj 5 9 _inside_main_;
