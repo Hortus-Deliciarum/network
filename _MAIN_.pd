@@ -1,0 +1,58 @@
+#N canvas 0 58 1920 1022 16;
+#X obj 3 4 TIMER;
+#X obj 6 433 hsl 1220 50 0 60000 0 0 empty empty empty -2 -8 0 16 -262144
+-258113 -1 318 1;
+#X obj 272 727 sel 90;
+#X obj 196 500 bng 80 30000 50 0 empty empty empty 17 7 0 10 -262144
+-4034 -1;
+#X obj 520 497 bng 80 30000 50 0 empty empty empty 17 7 0 10 -262144
+-4034 -1;
+#X obj 843 775 sel 240;
+#X obj 820 495 bng 80 30000 50 0 empty empty empty 17 7 0 10 -262144
+-4034 -1;
+#X obj 1159 771 sel 360;
+#X obj 1147 497 bng 80 30000 50 0 empty empty empty 17 7 0 10 -262144
+-4034 -1;
+#X obj 1566 742 sel 480;
+#X text 1773 750 rotor;
+#X obj 34 737 moses 80;
+#X obj 111 768 moses 90;
+#X obj 132 513 bng 50 250 50 0 empty empty empty 17 7 0 10 -262144
+-258113 -1;
+#X obj 456 509 bng 50 250 50 0 empty empty empty 17 7 0 10 -262144
+-258113 -1;
+#X obj 630 753 moses 230;
+#X obj 717 784 moses 240;
+#X obj 756 503 bng 50 250 50 0 empty empty empty 17 7 0 10 -262144
+-258113 -1;
+#X obj 962 748 moses 350;
+#X obj 1049 779 moses 360;
+#X obj 1082 507 bng 50 250 50 0 empty empty empty 17 7 0 10 -262144
+-258113 -1;
+#X text 8 526 metal: 1'30;
+#X text 330 521 metal: 4'00;
+#X text 622 519 guitar: 6'00;
+#X obj 1336 746 moses 470;
+#X obj 1423 777 moses 480;
+#X text 950 521 rotor: 8'00;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 0 0 5 0;
+#X connect 0 0 7 0;
+#X connect 0 0 9 0;
+#X connect 0 0 11 0;
+#X connect 0 0 15 0;
+#X connect 0 0 18 0;
+#X connect 2 0 3 0;
+#X connect 5 0 4 0;
+#X connect 7 0 6 0;
+#X connect 9 0 8 0;
+#X connect 11 1 12 0;
+#X connect 12 0 13 0;
+#X connect 15 1 16 0;
+#X connect 16 0 14 0;
+#X connect 18 1 19 0;
+#X connect 19 0 17 0;
+#X connect 24 1 25 0;
+#X connect 25 0 20 0;
+#X coords 0 -1 1 1 1230 600 1 0 0;
